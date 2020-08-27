@@ -10,9 +10,11 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
-    new Quote(1, 'Do not let your happiness depend on something you may lose.', 'C.S.Lewis', 0, 0, new Date(2019, 6, 9), 'Sanaipei'),
-    new Quote(2, 'Some of us think holding on makes us strong; but sometimes it is letting go.', 'Hnnah Hermes', 0, 1, new Date(2020, 11, 28), 'Messi'),
-    new Quote(3, 'If you avoid the conflict to keep the peace you start a war inside yourself', 'Albert Einsten', 0, 5, new Date(2020, 7, 22), 'Martineli')
+    new Quote(1, '“ Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code ”', 'Dan Salomon', 234, 12, new Date(2018, 7, 2), 'Francis'),
+    new Quote(2, '“ Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away ”', ' Antoine de Saint', 122, 15, new Date(2019, 8, 22), 'Hellena'),
+    new Quote(3, '“ Code is like humor. When you have to explain it, it’s bad ” ', 'Cory House Einsten', 452, 22, new Date(2018, 6, 15), 'Martineli'),
+    new Quote(4, '“ First, solve the problem. Then, write the code.” ', ' John Johnson', 434, 23, new Date(2017, 4, 12), 'Martineli')
+
   ];
   constructor() { }
 
