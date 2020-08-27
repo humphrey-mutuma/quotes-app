@@ -16,12 +16,9 @@ export class QuoteDetailComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  // tslint:disable-next-line: typedef
   upVote(quote) {
     this.upVoteQuote.emit(quote);
   }
-  // tslint:disable-next-line: typedef
   downVote(quote) {
     this.downVoteQuote.emit(quote);
   }
